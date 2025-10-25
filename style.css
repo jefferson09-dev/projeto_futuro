@@ -18,10 +18,18 @@ h1 {
   margin-bottom: 0.3rem;
 }
 
+.p-h2 {
+    margin-top: 2px;
+}
+
 .perfil img {
   border-radius: 50%;
   margin: 20px 0;
   border: 3px solid #58a6ff;
+}
+
+.p-sobre {
+    padding: 5px 22%;
 }
 
 .projetos {
@@ -33,7 +41,8 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
+  margin: 15px;
 }
 
 .card {
@@ -43,6 +52,10 @@ h1 {
   padding: 1rem;
   width: 250px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.card-png {
+    width: 30px;
 }
 
 .card:hover {
